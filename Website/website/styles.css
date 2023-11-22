@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: black;
+}
+.half {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.center-box {
+    position: absolute;
+    width: 1900px;
+    height: 700px;
+    display: flex;
+}
+.header {
+    height: 50px;
+    display: block;
+    background-color: black;
+}
+.center-box .half {
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow added */
+    border: 2px solid black; /* Black border added */
+}
+
+
+.white {
+    background-color: rgb(200, 200, 200);
+    left: 0;
+}
+.otherwhite{
+    background-color: rgb(191, 165, 142);
+    right: 0;
+}
+.beige {
+    background-color: rgb(151, 125, 102);
+    right: 0;
+}
+.otherbeige {
+    background-color: white;
+    left: 0;
+}
+/* Add a new class for the big name */
+.big-name {
+    font-size: 3em;
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    color: white;
+}
+.heading{
+    font-size: 2em;
+    font-family: 'Arial Black', sans-serif;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.headingtext{
+    font-size: 1em;
+    font-family: 'Arial Black', sans-serif;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.biotext {
+    font-size: 1.2em;
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    right: 100px;
+    color: black;
+}
+
+.navbar-container {
+    position: fixed;
+    
+    top: 170px;
+    margin-left: 1500px;
+    color: white;
+}
+
+.navbar-container a {
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.navbutton{
+    background-color: white;
+    font-family: 'Arial Black', sans-serif;
+    color: black;
+    border: 3px solid black;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 50px;
+}
+
+.navbutton:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+.profilepicture{
+
+    width: 500px;
+    height: auto;
+    position: relative;
+    right: -250px;
+    margin-top: 100px;
+    float: center;
+}
+
+.header {
+    height: 75px;
+    background-color: rgb(225, 225, 225); /* Set the background color to light grey */
+    width: 1900px;
+    position: fixed; /* Add this line to make the header fixed at the top */
+    margin-top: 155px; /* Add this line to position the header at the top */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow added */
+    border: 2px solid black; /* Black border added */
+    top: 0;
+    z-index: 1000;
+}
+
+.header h1 {
+    /* Additional styling for the header text if needed */
+    margin: 0;
+    font-family: arial black, sans-serif;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.linkedin{
+    width: 50px;
+    height: auto;
+    position: relative;
+    right: -75px;
+    margin-top: 100px;
+    float: center;
+}
+
+.maintext{
+    font-size: 2em;
+    font-family: 'Arial Black', sans-serif;
+    margin-bottom: 750px;
+    text-align: center;
+}
+
+.bodytext{
+    font-size: 0.5em;
+    font-family: 'Arial Black', sans-serif;
+    margin-top: 75px;
+    text-align: center;
+
+}
+.heading2{
+    font-size: 2em;
+    font-family: 'Arial Black', sans-serif;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    color: white
+}
